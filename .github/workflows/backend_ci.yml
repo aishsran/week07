@@ -14,7 +14,7 @@ on:
       - main
     paths: # Only trigger if changes are in backend directories
       - 'backend/**'
-      - '.github/workflows/backend_ci.yml' # Trigger if this workflow file changes (Example test change/addition to the code comment)
+      - '.github/workflows/backend_ci.yml' # Trigger if this workflow file changes (Example test change/addition to the code comment: try2)
 
 # Define global environment variables that can be used across jobs
 env:
